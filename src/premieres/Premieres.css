@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.premieres-wrapper{
+  background: fixed linear-gradient(0deg, #414345, #232526);
+  min-height: 100vh;
+  height: 100%;
+  padding: 40px 0;
+}
+.container{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapp-card{
+  width: 100%;
+  height: 100%;
+  max-width: 200px;
+  min-height: 300px;
+  border: 1px solid #303030;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 0px 26px -3px rgba(0,0,0,0.37);
+  -moz-box-shadow: 5px 0px 26px -3px rgba(0,0,0,0.37);
+  box-shadow: 5px 0px 26px -3px rgba(0,0,0,0.37);
+  position: relative;
+  cursor: pointer;
+}
+.image-card{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.description-card{
+  padding: 10px 20px;
+}
+.wrapper-all-movie{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blackout-card{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0;
+  border-radius: 10px;
+  text-align: left;
+  padding: 30px 15px;
+  color: #c6c6c6;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blackout-card:hover{
+  opacity: 0.8;
+  transition: 0.1s ease-out;
+}
+.blackout-card p{
+  margin-bottom: 3px;
+}
+.blackout-card p:nth-child(1){
+  margin-bottom: 9px;
+}
+.movie-title{
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+}
